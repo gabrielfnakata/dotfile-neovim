@@ -134,3 +134,8 @@ vim.pack.add {
 }
 
 require("lualine").setup()
+
+-- Mason
+vim.pack.add {{ src = "https://github.com/mason-org/mason.nvim.git", name = "mason" }}
+
+require("mason").setup()
